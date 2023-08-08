@@ -1,0 +1,28 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+@layer base{
+  body{
+    @apply bg-slate-900;
+    font-family: "poppins","sans-serif" ;
+    padding: 20px;
+  }
+}
+@layer components{
+  .page-container{
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+  .movie-list .swiper-slide {
+    width: 270px !important;
+    height: auto;
+  }
+    .banner .swiper{
+      width: 1440px;
+      margin: 0 auto;
+      height: 600px;
+      margin-bottom: 60px;
+    }
+}
